@@ -7,8 +7,11 @@ public class Equação {
     public int delta;
     public void calcDelta(){
         Scanner entrada = new Scanner(System.in);
+        System.out.println("Digite o valor de a: ");
         a = entrada.nextInt();
+        System.out.println("Digite o valor de b: ");
         b = entrada.nextInt();
+        System.out.println("Digite o valor de c: ");
         c = entrada.nextInt();
         delta= (b*b) -4*a*c;
         System.out.println("Delta = " + delta);
